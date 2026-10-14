@@ -1,0 +1,326 @@
+{
+    "categories": [
+        "all",
+        "web",
+        "mobile",
+        "backend",
+        "networking"
+    ],
+    "projects": [
+        {
+            "id": 1,
+            "title": "Bunda Dini (Mobile)",
+            "description": "Aplikasi mobile untuk monitoring kesehatan ibu hamil dengan pencatatan pemeriksaan oleh kader, deteksi risiko otomatis, dan pemantauan oleh bidan.",
+            "longDescription": "Bunda Dini adalah aplikasi mobile berbasis Flutter untuk memantau kesehatan ibu hamil dengan dua peran pengguna, yaitu Kader dan Bidan. Kader mencatat pemeriksaan melalui alur empat langkah: usia kehamilan, tekanan darah, antropometri, serta DJJ dan keluhan. Rule engine menganalisis hasil pemeriksaan untuk menandai kondisi ibu dan janin serta memberi rekomendasi, termasuk peringatan ibu risiko tinggi. Bidan dapat memantau ringkasan data dan statistik 6 bulan terakhir, melihat grafik tren berat badan, tekanan darah, dan DJJ, menambahkan catatan, serta mengekspor laporan ke Excel dan PDF. Aplikasi ini dikembangkan dalam program Pengabdian kepada Masyarakat Hibah Kemendiktisaintek Tahun 2026.",
+            "tech": [
+                "Flutter",
+                "Firebase",
+                "Provider",
+                "GoRouter",
+                "fl_chart",
+                "Cloudinary"
+            ],
+            "link": "https://github.com/Motherbloods/bundadini",
+            "demoLink": "https://play.google.com/store/apps/details?id=com.udb.bundadini",
+            "image": "/images/bunda-dini-showcase.avif",
+            "category": "mobile",
+            "stars": 0,
+            "forks": 0,
+            "lastUpdated": "Aug 2026",
+            "featured": true
+        },
+        {
+            "id": 2,
+            "title": "Bunda Dini (Web)",
+            "description": "Sistem monitoring ibu hamil berbasis web untuk mencatat pemeriksaan oleh kader dan memantau hasilnya oleh bidan.",
+            "longDescription": "Bunda Dini adalah aplikasi web monitoring kesehatan ibu hamil yang dikembangkan untuk puskesmas melalui program Pengabdian kepada Masyarakat Hibah Kemendiktisaintek 2026 bersama Universitas Duta Bangsa Surakarta. Kader mencatat pemeriksaan dalam tiga tahap: tekanan darah, antropometri, serta denyut jantung janin dan keluhan. Hasilnya dievaluasi oleh rule engine menjadi status kondisi ibu: Normal, Perlu Perhatian, atau Risiko Tinggi. Bidan memantau seluruh pasien melalui dashboard statistik, mengelola kader, dan mengekspor data pemeriksaan.",
+            "tech": [
+                "React",
+                "Firebase",
+                "Tailwind CSS",
+                "Rule Engine",
+                "Export PDF"
+            ],
+            "link": "https://github.com/Motherbloods/bunda-dini-web",
+            "demoLink": "https://bundadini.vercel.app/",
+            "image": "/images/showcase-bunda-dini.avif",
+            "category": "web",
+            "stars": 0,
+            "forks": 0,
+            "lastUpdated": "Aug 2026",
+            "featured": true
+        },
+        {
+            "id": 3,
+            "title": "Dashboard Keuangan",
+            "description": "Aplikasi web untuk mengelola pemasukan dan pengeluaran dengan budget bulanan, grafik transaksi, dan laporan yang bisa diekspor ke PDF.",
+            "longDescription": "Dashboard Keuangan adalah aplikasi web berbasis React untuk mengelola pengeluaran dan pemasukan dengan mudah. Pengguna masuk menggunakan Telegram ID, lalu dapat mengatur budget bulanan dan memantau progres pemakaiannya. Dashboard menampilkan ringkasan saldo bersih, grafik transaksi, dan breakdown pengeluaran per kategori dengan filter periode bulan dan tahun. Tersedia halaman laporan keuangan dengan opsi ekspor ke PDF, serta halaman aktivitas pengguna untuk admin. Transaksi juga dapat berasal dari Telegram Bot.",
+            "tech": [
+                "React",
+                "Tailwind CSS",
+                "Recharts",
+                "Telegram"
+            ],
+            "link": "https://github.com/Motherbloods/Smart-Expense-Tracker",
+            "demoLink": "https://smart_expense_tracker.motherbloodss.site/",
+            "image": "/images/DashboardKeuangan_Showcase.avif",
+            "category": "web",
+            "stars": 0,
+            "forks": 0,
+            "lastUpdated": "May 2026",
+            "featured": true
+        },
+        {
+            "id": 4,
+            "title": "FINSO Management System",
+            "description": "Sistem akuntansi dan kasir (POS) berbasis web untuk BUMDes, mulai dari transaksi harian, jurnal, hingga laporan keuangan.",
+            "longDescription": "FINSO Management System adalah aplikasi web untuk mengelola keuangan dan operasional usaha BUMDes dalam satu sistem. Modulnya mencakup POS Kasir dengan manajemen shift, transaksi hold, retur, dan pembayaran digital melalui Midtrans, serta jurnal umum, buku besar, neraca saldo, transaksi kas, piutang, kewajiban, inventaris dengan penyusutan, persediaan, dan konsinyasi. Laporan keuangan tersedia dalam bentuk laba rugi, neraca, arus kas, dan perubahan modal, dengan ekspor PDF. Dilengkapi dashboard tren keuangan, manajemen user berbasis role, paket menu berlangganan, dan mode simulasi untuk uji coba data.",
+            "tech": [
+                "Laravel",
+                "Blade",
+                "Tailwind CSS",
+                "Alpine.js",
+                "Chart.js",
+                "Midtrans"
+            ],
+            "link": "https://github.com/Motherbloods/sistem-keuangan-bumdes",
+            "demoLink": "#",
+            "image": "/images/finso-showcase.avif",
+            "category": "web",
+            "stars": 0,
+            "forks": 1,
+            "lastUpdated": "October 2025",
+            "featured": false
+        },
+        {
+            "id": 5,
+            "title": "Furnie",
+            "description": "Marketplace furnitur berbasis web untuk pembeli dan penjual, lengkap dengan katalog produk, keranjang, checkout, dan pembayaran Midtrans.",
+            "longDescription": "Furnie adalah marketplace furnitur berbasis Laravel yang menghubungkan pembeli dengan penjual dalam satu platform. Pembeli dapat mencari produk, menjelajahi kategori seperti sofa, meja, kursi, lemari, dan tempat tidur, melihat detail produk beserta rating dan stok, menambahkannya ke keranjang, lalu melanjutkan ke checkout dengan pilihan pengiriman Reguler, Express, atau Same Day. Pembayaran diproses melalui Midtrans. Penjual memiliki dashboard untuk mengelola produk, memantau rating toko, dan melacak status pesanan mulai dari menunggu konfirmasi, diproses, dikirim, hingga selesai. Tampilan dibangun dengan Blade dan Tailwind CSS yang responsif untuk desktop maupun ponsel.",
+            "tech": [
+                "Laravel",
+                "Blade",
+                "Tailwind CSS",
+                "Midtrans",
+                "SweetAlert2"
+            ],
+            "link": "https://github.com/Motherbloods/Furnie-Web",
+            "demoLink": "#",
+            "image": "/images/furnie-showcase.avif",
+            "category": "web",
+            "stars": 0,
+            "forks": 0,
+            "lastUpdated": "June 2025",
+            "featured": false
+        },
+        {
+            "id": 6,
+            "title": "Live Notifier",
+            "description": "Aplikasi mobile untuk memantau durasi dan jadwal sesi live per username dengan kalender intensitas, grafik durasi, dan statistik live.",
+            "longDescription": "Live Notifier adalah aplikasi mobile berbasis Flutter untuk memantau sesi live berdasarkan username yang dipilih. Pengguna dapat memilih rentang tanggal, melihat kalender yang diwarnai sesuai intensitas durasi live, dan membaca grafik durasi per sesi. Aplikasi juga menampilkan statistik berupa live terlama dan hari yang paling sering live, daftar sesi lengkap dengan dialog detail, serta notifikasi. Data yang pernah dimuat disimpan secara lokal sehingga tetap tampil saat perangkat offline.",
+            "tech": [
+                "Flutter",
+                "fl_chart",
+                "table_calendar",
+                "http",
+                "shared_preferences",
+                "connectivity_plus"
+            ],
+            "link": "https://github.com/Motherbloods/Live-Push-Notification",
+            "demoLink": "#",
+            "image": "/images/live-notifier-showcase.avif",
+            "category": "mobile",
+            "stars": 1,
+            "forks": 0,
+            "lastUpdated": "Apr 2025",
+            "featured": false
+        },
+        {
+            "id": 7,
+            "title": "MindGarden",
+            "description": "Aplikasi catatan pintar berbasis web dengan kategorisasi otomatis oleh AI, pencarian AI, dan chat untuk bertanya seputar catatan yang sudah disimpan.",
+            "longDescription": "MindGarden adalah aplikasi catatan berbasis web yang membantu pengguna menyimpan dan menemukan kembali ide, kode, dan target harian dengan cepat. Setiap catatan dianalisis oleh AI untuk menentukan kategori, membuat judul, dan merapikan format sebelum disimpan lewat modal konfirmasi. Catatan dikelompokkan ke dalam kategori Target Harian, Ide, Kode, Catatan, dan Lainnya. Fitur Chat AI memungkinkan pengguna bertanya apa saja tentang catatan yang sudah disimpan, lengkap dengan jawaban berformat markdown dan blok kode. Dilengkapi pencarian AI, dukungan tema terang dan gelap, serta antarmuka responsif yang dibangun dengan Vite, React, dan Tailwind CSS.",
+            "tech": [
+                "React (Vite)",
+                "Tailwind CSS",
+                "React Router",
+                "Google OAuth",
+                "Lucide React"
+            ],
+            "link": "https://github.com/Motherbloods/notes-app-with-chatbot",
+            "demoLink": "https://notes.motherbloodss.site/",
+            "image": "/images/mindgarden-showcase.avif",
+            "category": "web",
+            "stars": 0,
+            "forks": 0,
+            "lastUpdated": "May 2026",
+            "featured": true
+        },
+        {
+            "id": 8,
+            "title": "Patungan",
+            "description": "Aplikasi web untuk mengelola pengeluaran bersama dalam grup, menghitung utang-piutang, dan menyelesaikannya dengan transfer sesedikit mungkin.",
+            "longDescription": "Patungan adalah aplikasi web untuk mengelola patungan atau pengeluaran bersama dalam sebuah grup. Pengguna dapat membuat grup, menambahkan anggota dan pengeluaran, lalu melihat ringkasan saldo setiap anggota. Semua utang-piutang digabung secara otomatis menjadi saran transfer yang minimal, lengkap dengan penanda transfer yang sudah dilakukan. Aplikasi ini juga menyediakan dashboard neraca keuangan, riwayat aktivitas, login dengan Google dan Telegram, serta mode guest yang datanya dapat disinkronkan setelah login.",
+            "tech": [
+                "React",
+                "Tailwind CSS",
+                "TanStack Query",
+                "React Router",
+                "Google OAuth",
+                "Telegram Login"
+            ],
+            "link": "https://github.com/Motherbloods/patungan",
+            "demoLink": "https://patungan.motherbloodss.site/",
+            "image": "/images/patungan-showcase.avif",
+            "category": "web",
+            "stars": 0,
+            "forks": 0,
+            "lastUpdated": "May 2026",
+            "featured": true
+        },
+        {
+            "id": 9,
+            "title": "Pintar Berhitung Kivy",
+            "description": "Aplikasi belajar matematika interaktif dengan fitur gamifikasi untuk semua usia.",
+            "longDescription": "Selamat datang di Pintar Berhitung, aplikasi belajar matematika yang penuh tantangan seru dan interaktif! Pintar Berhitung membantu meningkatkan kemampuan berhitung sambil bersenang-senang dengan fitur gamifikasi yang menarik, seperti avatar, stars, skor, dan sistem level. Cocok untuk pelajar dari segala usia, aplikasi ini menawarkan pengalaman belajar yang mengasyikkan dan memotivasi pengguna untuk terus berlatih. Dilengkapi dengan mode latihan, kuis, dan laporan kemajuan.",
+            "tech": [
+                "Python",
+                "Kivy"
+            ],
+            "link": "https://github.com/Motherbloods/Pintar-Berhitung-Kivy-Python",
+            "demoLink": "https://play.google.com/store/apps/details?id=org.motherbloodss.asix.pintarberhitungasix",
+            "image": "/images/pintarberhitung.avif",
+            "category": "mobile",
+            "stars": 0,
+            "forks": 0,
+            "lastUpdated": "Oct 2024",
+            "featured": false
+        },
+        {
+            "id": 10,
+            "title": "SiPadi",
+            "description": "Sistem informasi persediaan beras berbasis web dengan metode FIFO untuk CV Santri Abadi, lengkap dengan monitoring stok dan laporan.",
+            "longDescription": "SiPadi adalah aplikasi web untuk mengelola persediaan beras di CV Santri Abadi secara terstruktur. Aplikasi ini menerapkan metode FIFO sehingga batch beras yang masuk lebih awal selalu diambil lebih dulu. Dashboard menampilkan ringkasan jenis beras, stok masuk dan keluar per bulan, grafik perbandingan enam bulan terakhir, serta riwayat transaksi. Halaman monitoring menunjukkan status stok (Aman, Menipis, Habis) dan antrian FIFO per jenis beras. Aplikasi juga mencakup pencatatan stok masuk dan keluar, laporan masuk, keluar, dan persediaan dalam format PDF, serta pengelolaan data jenis beras, supplier, dan pengguna.",
+            "tech": [
+                "Laravel",
+                "Blade",
+                "Chart.js",
+                "FIFO",
+                "Laporan PDF"
+            ],
+            "link": "https://github.com/Motherbloods/sistem-persediaan-beras-fifo",
+            "demoLink": "#",
+            "image": "/images/sipadi-showcase.avif",
+            "category": "web",
+            "stars": 0,
+            "forks": 0,
+            "lastUpdated": "May 2026",
+            "featured": false
+        },
+        {
+            "id": 11,
+            "title": "SiPPKe",
+            "description": "Aplikasi mobile untuk monitoring indeks kerawanan kekerasan sekolah, pelaporan kasus dengan pelacakan status, dan konten edukasi.",
+            "longDescription": "SiPPKe (Sistem Pencegahan dan Penanganan Kekerasan) adalah aplikasi mobile berbasis Flutter yang membantu sekolah memantau tingkat kerawanan kekerasan secara terukur. Dashboard menampilkan indeks kerawanan, skor per sumber data (siswa dan guru), tingkat partisipasi responden, serta tren tiga bulan terakhir. Pengguna dapat membuat laporan kasus dan melacak statusnya tahap demi tahap, mengakses konten edukasi, dan mengisi instrumen survei. Aplikasi mendukung beberapa peran pengguna, yaitu Admin, Kepala Sekolah, TPPK, Guru, dan Siswa, dengan backend Supabase dan Firebase.",
+            "tech": [
+                "Flutter",
+                "Supabase",
+                "Firebase"
+            ],
+            "link": "https://github.com/Motherbloods/SiPPKe",
+            "demoLink": "https://play.google.com/store/apps/details?id=com.onoart.sippke",
+            "image": "/images/SiPPKe_Showcase.avif",
+            "category": "mobile",
+            "stars": 0,
+            "forks": 1,
+            "lastUpdated": "October 2025",
+            "featured": true
+        },
+        {
+            "id": 12,
+            "title": "Sistem Inventori Toko Roti Andika",
+            "description": "Aplikasi web manajemen inventori untuk Toko Roti Andika dengan perhitungan EOQ, Safety Stock, dan Reorder Point.",
+            "longDescription": "Sistem Inventori Toko Roti Andika adalah aplikasi web berbasis Laravel untuk membantu pengelolaan stok secara terstruktur. Aplikasi ini mencatat pembelian dan pemakaian, memantau stok kritis, serta menghitung Economic Order Quantity (EOQ), Safety Stock, dan Reorder Point agar pemesanan ulang dilakukan tepat waktu. Safety Stock dihitung dari selisih pemakaian maksimum dan rata-rata dikalikan lead time, sedangkan Reorder Point dihitung dari pemakaian rata-rata dikalikan lead time ditambah Safety Stock. Dilengkapi dashboard dengan notifikasi stok kritis dan akses berbasis peran pengguna.",
+            "tech": [
+                "Laravel",
+                "Bootstrap",
+                "EOQ",
+                "Safety Stock",
+                "Reorder Point"
+            ],
+            "link": "https://github.com/Motherbloods/inventory-eoq-laravel",
+            "demoLink": "#",
+            "image": "/images/showcase-toko-roti-andika.avif",
+            "category": "web",
+            "stars": 0,
+            "forks": 0,
+            "lastUpdated": "Jun 2026",
+            "featured": false
+        },
+        {
+            "id": 13,
+            "title": "Smart Kuliner (Mobile)",
+            "description": "Aplikasi mobile kuliner untuk menemukan produk makanan, konten edukasi, promosi penjual, dan panduan memasak dalam satu platform.",
+            "longDescription": "SmartKuliner adalah aplikasi mobile berbasis Flutter yang menghubungkan pembeli dan penjual kuliner. Pengguna dapat menjelajahi produk terbaru, menambahkannya ke keranjang, melakukan checkout, dan memantau pesanan. Penjual memiliki tampilan tersendiri untuk mengelola produk dan membuat konten promosi di Pusat Promosi. Aplikasi juga menyediakan konten edukasi berupa gambar dan video, resep Cara Memasak lengkap dengan tingkat kesulitan dan durasi, pencarian berdasarkan kategori, ulasan produk, serta notifikasi. Autentikasi dan data memakai Firebase, notifikasi push memakai Firebase Cloud Messaging, dan lokasi toko memakai Google Maps.",
+            "tech": [
+                "Flutter",
+                "Firebase Auth",
+                "Cloud Firestore",
+                "Firebase Cloud Messaging",
+                "Provider",
+                "Google Maps",
+                "Cloudinary"
+            ],
+            "link": "https://github.com/Motherbloods/Smart-Kuliner",
+            "demoLink": "https://drive.google.com/file/d/1-bOduvTo_71K2yl_q6ACaAZ3NSsK9LIQ/view?usp=drive_link",
+            "image": "/images/smartkuliner-showcase.avif",
+            "category": "mobile",
+            "stars": 0,
+            "forks": 0,
+            "lastUpdated": "July 2025",
+            "featured": false
+        },
+        {
+            "id": 14,
+            "title": "Smart Kuliner (Web)",
+            "description": "Platform web marketplace kuliner dengan dashboard penjualan untuk seller, konten edukasi, dan resep untuk pembeli.",
+            "longDescription": "Smart Kuliner adalah aplikasi berbasis web yang menghubungkan seller kuliner dengan pembeli dalam satu platform. Seller mendapatkan dashboard berisi ringkasan pesanan, grafik penjualan harian, mingguan, dan bulanan, serta tabel pesanan terbaru, dan dapat mengelola produk, konten edukasi, dan resep. Pembeli dapat menjelajahi produk kuliner, menonton konten, menyimpan resep favorit, dan melanjutkan pembelian lewat aplikasi mobile. Autentikasi dan data dikelola dengan Firebase, media disimpan di Cloudinary, dan akses dibedakan untuk tamu, pembeli, dan seller.",
+            "tech": [
+                "React (Vite)",
+                "Tailwind CSS",
+                "Firebase",
+                "Cloudinary",
+                "Recharts"
+            ],
+            "link": "https://github.com/Motherbloods/Smart-Kuliner-Web-Based",
+            "demoLink": "https://smart-kuliner.vercel.app/",
+            "image": "/images/SmartKuliner.avif",
+            "category": "web",
+            "stars": 0,
+            "forks": 0,
+            "lastUpdated": "July 2025",
+            "featured": false
+        },
+        {
+            "id": 15,
+            "title": "ThriftHub",
+            "description": "Marketplace jual beli produk thrift berbasis web untuk pembeli dan penjual, dengan keranjang, pembayaran Midtrans, pelacakan pesanan, dan ulasan.",
+            "longDescription": "ThriftHub adalah platform web untuk jual beli pakaian, sepatu, tas, dan aksesoris second-hand secara aman dan nyaman. Pembeli dapat mencari produk, menyimpan wishlist, mengisi keranjang, checkout dengan pilihan pengiriman Reguler, Express, Instant, atau Same Day, lalu memantau status pesanan dari Menunggu Konfirmasi hingga Selesai. Setelah pesanan selesai, pembeli dapat memberi rating dan ulasan. Penjual memakai ThriftMart, dashboard khusus dengan ringkasan revenue dan grafik penjualan. Pembayaran terintegrasi dengan Midtrans.",
+            "tech": [
+                "Laravel",
+                "Blade",
+                "Tailwind CSS",
+                "Midtrans",
+                "Chart.js"
+            ],
+            "link": "https://github.com/Motherbloods/Cloth-Store",
+            "demoLink": "#",
+            "image": "/images/thrifthub-showcase.avif",
+            "category": "web",
+            "stars": 0,
+            "forks": 0,
+            "lastUpdated": "July 2025",
+            "featured": false
+        }
+    ]
+}

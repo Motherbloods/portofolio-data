@@ -1,0 +1,73 @@
+{
+    "bio": {
+        "paragraphs": [
+            "Saya seorang **Full Stack Developer** yang berfokus pada pengembangan aplikasi web dan mobile dengan user interface yang intuitif dan performa yang optimal. Dengan pengalaman lebih dari 1 tahun, saya telah membangun berbagai macam aplikasi baik untuk klien maupun project personal.",
+            "Saya senang menggabungkan kreativitas desain dengan logika pemrograman untuk menciptakan pengalaman digital yang tidak hanya indah untuk dilihat, tetapi juga efisien dan mudah digunakan."
+        ]
+    },
+    "passionPoints": [
+        "Clean, maintainable code",
+        "Responsive UI/UX design",
+        "Performance optimization",
+        "Accessibility standards",
+        "Modern tech stacks",
+        "Continuous learning"
+    ],
+    "funFacts": [
+        "Hobi naik gunung",
+        "Pernah bikin app buat bantu teman mendaki",
+        "Lebih suka dark mode daripada light mode"
+    ],
+    "techStack": [
+        {
+            "category": "Frontend",
+            "skills": [
+                "React Vite",
+                "Tailwind CSS",
+                "HTML/CSS"
+            ]
+        },
+        {
+            "category": "Backend",
+            "skills": [
+                "Node.js",
+                "Laravel",
+                "Express",
+                "MongoDB",
+                "MYSQL",
+                "Firebase"
+            ]
+        },
+        {
+            "category": "Mobile",
+            "skills": [
+                "Flutter"
+            ]
+        },
+        {
+            "category": "Tools",
+            "skills": [
+                "Git",
+                "VS Code",
+                "Vercel",
+                "CI/CD",
+                "Docker",
+                "Cloudflare"
+            ]
+        }
+    ],
+    "education": [
+        {
+            "name": "Universitas Duta Bangsa Surakarta",
+            "detail": "Teknik Informatika (2022-2026)"
+        }
+    ],
+    "timeline": [
+        {
+            "year": "2025 - Now",
+            "title": "Freelance Web Developer",
+            "company": "Self-employed",
+            "description": "Building responsive and scalable web applications for various clients using modern web technologies such as JavaScript, Node.js, and Flutter."
+        }
+    ]
+}
